@@ -1,0 +1,4 @@
+{"summary": "hook_v22_http_capture.js loaded (SSL-first)", "tag": "status", "id": 1, "ts": 1785571678820}
+{"summary": "initial SSL hooks=0", "tag": "status", "id": 2, "ts": 1785571678820}
+{"summary": "heartbeat sslMods=0 patched=false modules=29", "tag": "status", "id": 3, "ts": 1785571682905}
+{"summary": "heartbeat sslMods=0 patched=false modules=29", "tag": "status", "id": 4, "ts": 1785571689023}

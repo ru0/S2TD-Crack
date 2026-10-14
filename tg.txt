@@ -1,0 +1,28 @@
+
+
+## 协议号 
+
+协议号 就是指某一个账号，在某一个设备上的登录会话。英文称为session。app内显示为：活跃设备
+
+### 格式分类
+
+Telethon： 最流行。（后缀名：session
+
+Pyrogram：优雅的库，不过不如上者流行。（后缀名：session
+
+Telegram的开源客户端太多了。这里的Telethon和pyrogram都是python库。
+
+tdata： window下的Telegram客户端的格式。土味技术术语--直登号，一般下载一个telegram的官方版本，运行下关闭。然后把你的tdata覆盖进去即可。
+
+api接码形式：参看这里
+
+密钥：某些软件需要，一般就是telethon和pyrogram的string_session形态。密钥：这种一般都是转为session使用。
+
+json：某些软件需要。一般内含上者，或者是暴露出来的auth_key
+
+web_auth_key：web版本的官方telegram客户端的登录方式。一般来说，都是一串”982FA。。。。“的值。可以从session文件中获取auth_key后填写。web auth key: 打开浏览器，F12，写入到localstorage内即可。
+
+
+
+
+

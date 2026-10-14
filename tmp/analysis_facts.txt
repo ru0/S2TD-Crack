@@ -1,0 +1,86 @@
+=== get.txt body ===
+data_outer_prefix=b'gAAAAABovig0UKbH' fernet_ascii=True
+key_ct_len=256 (RSA-2048 ciphertext size)
+Fernet version=0x80 ts=1757292596 utc=2025-09-08T00:49:56Z token_bin_len=281
+=== mTLS client cert ===
+subject=1.2.840.113549.1.9.1=abuse@megacave.com,CN=megacave.com,OU=Server,O=MegaCave,L=EN,ST=CA,C=CA
+issuer=CN=Managed CA 8873e2c9a3db80d06a9644e6f9c33a85,OU=www.cloudflare.com,O=Cloudflare\, Inc.,L=San Francisco,ST=California,C=US
+serial=52BFFC40F80002868FD599F03C66F84A98737EBB
+sha1=45A720650362EAB3267A90D03F9B81F997D86587
+pubkey_bits=4096
+validity=2024-07-14 09:55:00 .. 2039-07-11 09:55:00
+tmpvzd2agdz.pem matches cert: True
+=== rsa_test hardcoded RSA ===
+bits=2048
+private_key.pem same as rsa_test: True
+=== Pyarmor-protected app modules ===
+     22750  S2TD_translations.Chinese.pyc
+       433  S2TD_translations.pyc
+    813881  _android_devices.pyc
+      5050  _android_versions.pyc
+      6956  _android_x_versions.pyc
+     35431  _desktop_devices.pyc
+       503  _desktop_sdk.pyc
+      1392  _desktop_versions.pyc
+      1743  _iphone_versions.pyc
+      9027  data.pyc
+      3461  dc_auth_to_session.pyc
+      5228  get_machine_id_CLAUDE.pyc
+     24507  helpers.pyc
+     11577  pytransform.pyc
+Session string: pyarmor_runtimesj
+Session string: __pyarmor__
+Session string: z!dist\obf\Session.2.TData_CN_MT.py
+Session PYARMOR header hex=505941524d4f520000030a006f0d0d0a0933e002000000000100000040000000
+Session PYARMOR header raw=b'PYARMOR\x00\x00\x03\n\x00o\r\r\n\t3\xe0\x02\x00\x00\x00\x00\x01\x00\x00\x00@\x00\x00\x00'
+python_major=3 python_minor=10
+=== _pytransform.dll ===
+size=1164800 pyarmor-vax=-1 PY00=-1
+  dllstr:   Unknown pseudo relocation protocol version %d.
+  dllstr:   VirtualProtect failed with code 0x%x
+  dllstr:  In trial version the limitation is about %d code objects in one module if it's 
+  dllstr: *VERSION:
+  dllstr: .pyarmor
+  dllstr: <frozen pyarmor>
+  dllstr: Check license failed, %s
+  dllstr: Could not generate license in trial version
+  dllstr: Decode pyshield license file failed
+  dllstr: Decode trial license failed
+  dllstr: Fail to write trial license file %s
+  dllstr: Failed to encode trial license.
+  dllstr: Format license binded filename failed
+  dllstr: Format trial license file '%s'
+  dllstr: Get license expired days failed
+  dllstr: GetVersion
+  dllstr: Hardware informations got by PyArmor:
+  dllstr: Initialize license failed
+  dllstr: Invalid license
+  dllstr: Invalid license file %s, size %d is out of range
+  dllstr: Invalid license version format
+  dllstr: Invalid product license file
+  dllstr: Invalid pyshield license file
+  dllstr: Invalid trial license file, size is %d != 256
+  dllstr: License binded filename not found
+  dllstr: License is expired
+  dllstr: License is not for this machine
+  dllstr: PYARMOR
+  dllstr: PYARMOR_HOME
+  dllstr: PYARMOR_LICENSE
+  dllstr: Protection Fault: this function is not pyarmored
+  dllstr: Pyarmor
+  dllstr: Python interpreter is debug version
+  dllstr: Read license binded file failed
+  dllstr: Read license information failed
+  dllstr: Read trial license file '%s'
+  dllstr: The api `get_error_msg` has been removed from PyArmor v5.7.3
+  dllstr: The core library version: r%d, age: %d, features: %d
+  dllstr: The python version in runtime is different from the build time
+  dllstr: This function is not included in trial version
+=== Tech stack indicators ===
+  python310.dll: exists=True
+  libssl-1_1.dll: exists=True
+  libcrypto-1_1.dll: exists=True
+  _pytransform.dll: exists=True
+  tgcrypto.cp310-win_amd64.pyd: exists=True
+  PyQt5: exists=True
+=== LicenseKey === S2TD-KTDP3JT-3TKJ7XN-YHL0LW4

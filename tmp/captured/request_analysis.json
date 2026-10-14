@@ -1,0 +1,147 @@
+{
+  "steps": [
+    {
+      "priv": "C:\\Users\\test\\Desktop\\crack\\tmp\\captured\\keys_clean\\body_rsa2048_private.pem",
+      "bits": 2048,
+      "fp": "514c75c66055f27e",
+      "rsa": true
+    },
+    {
+      "priv": "C:\\Users\\test\\Desktop\\crack\\tmp\\captured\\keys_clean\\mtls_rsa4096_private.pem",
+      "bits": 4096,
+      "fp": "1cb9eb6f4fe2a145",
+      "rsa": false
+    },
+    {
+      "priv": "C:\\Users\\test\\Desktop\\crack\\tmp\\captured\\pem_ext\\20260801_162708_9120_14_PRIVATE_KEY.pem",
+      "bits": 4096,
+      "fp": "1cb9eb6f4fe2a145",
+      "rsa": false
+    },
+    {
+      "priv": "C:\\Users\\test\\Desktop\\crack\\demo\\private_key.pem",
+      "bits": 2048,
+      "fp": "39ea3981173f0333",
+      "rsa": true
+    },
+    {
+      "pub": "C:\\Users\\test\\Desktop\\crack\\tmp\\captured\\pem_ext\\20260801_162708_9120_04_RSA_PUBLIC_KEY.pem",
+      "fp": "9573487aaa326d6b",
+      "bits": 2048,
+      "has_matching_priv": false
+    },
+    {
+      "pub": "C:\\Users\\test\\Desktop\\crack\\tmp\\captured\\pem_ext\\20260801_162708_9120_05_RSA_PUBLIC_KEY.pem",
+      "fp": "68379f20aa13f079",
+      "bits": 2048,
+      "has_matching_priv": false
+    },
+    {
+      "pub": "C:\\Users\\test\\Desktop\\crack\\tmp\\captured\\pem_ext\\20260801_162708_9120_06_RSA_PUBLIC_KEY.pem",
+      "fp": "aae3aeacc2d87af0",
+      "bits": 2048,
+      "has_matching_priv": false
+    },
+    {
+      "pub": "C:\\Users\\test\\Desktop\\crack\\tmp\\captured\\pem_ext\\20260801_162708_9120_07_RSA_PUBLIC_KEY.pem",
+      "fp": "7393aea2fa389cf2",
+      "bits": 2048,
+      "has_matching_priv": false
+    },
+    {
+      "pub": "C:\\Users\\test\\Desktop\\crack\\tmp\\captured\\pem_ext\\20260801_162708_9120_08_RSA_PUBLIC_KEY.pem",
+      "fp": "0466c6620d404dd7",
+      "bits": 2048,
+      "has_matching_priv": false
+    },
+    {
+      "pub": "C:\\Users\\test\\Desktop\\crack\\tmp\\captured\\pem_ext\\20260801_162708_9120_09_RSA_PUBLIC_KEY.pem",
+      "fp": "d903db045487dc4d",
+      "bits": 2048,
+      "has_matching_priv": false
+    },
+    {
+      "pub": "C:\\Users\\test\\Desktop\\crack\\tmp\\captured\\pem_ext\\20260801_162708_9120_10_RSA_PUBLIC_KEY.pem",
+      "fp": "7f3235f4cec2f662",
+      "bits": 2048,
+      "has_matching_priv": false
+    },
+    {
+      "pub": "C:\\Users\\test\\Desktop\\crack\\tmp\\captured\\pem_ext\\20260801_162708_9120_11_RSA_PUBLIC_KEY.pem",
+      "fp": "f001d24113968188",
+      "bits": 2048,
+      "has_matching_priv": false
+    },
+    {
+      "pub": "C:\\Users\\test\\Desktop\\crack\\tmp\\captured\\pem_ext\\20260801_162708_9120_18_PUBLIC_KEY.pem",
+      "fp": "67e373694bf5a073",
+      "bits": 2048,
+      "has_matching_priv": false
+    },
+    {
+      "pub": "C:\\Users\\test\\Desktop\\crack\\tmp\\captured\\keys_clean\\body_rsa2048_public.pem",
+      "fp": "514c75c66055f27e",
+      "bits": 2048,
+      "has_matching_priv": true
+    },
+    {
+      "pub": "C:\\Users\\test\\Desktop\\crack\\demo\\public_key.pem",
+      "fp": "39ea3981173f0333",
+      "bits": 2048,
+      "has_matching_priv": true
+    }
+  ],
+  "conclusion": {
+    "decryptable_with_known_keys": false,
+    "reason": "request key encrypted to server public key",
+    "server_pub_candidates": [
+      {
+        "path": "C:\\Users\\test\\Desktop\\crack\\tmp\\captured\\pem_ext\\20260801_162708_9120_04_RSA_PUBLIC_KEY.pem",
+        "fp": "9573487aaa326d6b"
+      },
+      {
+        "path": "C:\\Users\\test\\Desktop\\crack\\tmp\\captured\\pem_ext\\20260801_162708_9120_05_RSA_PUBLIC_KEY.pem",
+        "fp": "68379f20aa13f079"
+      },
+      {
+        "path": "C:\\Users\\test\\Desktop\\crack\\tmp\\captured\\pem_ext\\20260801_162708_9120_06_RSA_PUBLIC_KEY.pem",
+        "fp": "aae3aeacc2d87af0"
+      },
+      {
+        "path": "C:\\Users\\test\\Desktop\\crack\\tmp\\captured\\pem_ext\\20260801_162708_9120_07_RSA_PUBLIC_KEY.pem",
+        "fp": "7393aea2fa389cf2"
+      },
+      {
+        "path": "C:\\Users\\test\\Desktop\\crack\\tmp\\captured\\pem_ext\\20260801_162708_9120_08_RSA_PUBLIC_KEY.pem",
+        "fp": "0466c6620d404dd7"
+      },
+      {
+        "path": "C:\\Users\\test\\Desktop\\crack\\tmp\\captured\\pem_ext\\20260801_162708_9120_09_RSA_PUBLIC_KEY.pem",
+        "fp": "d903db045487dc4d"
+      },
+      {
+        "path": "C:\\Users\\test\\Desktop\\crack\\tmp\\captured\\pem_ext\\20260801_162708_9120_10_RSA_PUBLIC_KEY.pem",
+        "fp": "7f3235f4cec2f662"
+      },
+      {
+        "path": "C:\\Users\\test\\Desktop\\crack\\tmp\\captured\\pem_ext\\20260801_162708_9120_11_RSA_PUBLIC_KEY.pem",
+        "fp": "f001d24113968188"
+      },
+      {
+        "path": "C:\\Users\\test\\Desktop\\crack\\tmp\\captured\\pem_ext\\20260801_162708_9120_18_PUBLIC_KEY.pem",
+        "fp": "67e373694bf5a073"
+      }
+    ],
+    "practical_paths": [
+      "live_capture_fernet_before_rsa",
+      "rebuild_request_with_server_pub",
+      "obtain_server_private (not in client)"
+    ]
+  },
+  "envelope": {
+    "key_len": 256,
+    "data_len": 376,
+    "fernet_ascii": true
+  },
+  "fernet_ts": "2025-09-08T00:49:56Z"
+}

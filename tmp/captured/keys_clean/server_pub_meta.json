@@ -1,0 +1,18 @@
+{
+  "fp": "67e373694bf5a073",
+  "pad": "oaep",
+  "method": "GET",
+  "key_format": "fernet44",
+  "data_encoding": "b64",
+  "path": "C:\\Users\\test\\Desktop\\crack\\tmp\\captured\\pem_ext\\20260801_132818_17964_19_PUBLIC_KEY.pem",
+  "verified": true,
+  "verified_at": "2026-08-01",
+  "evidence": {
+    "correct_pub_oaep_empty": {"message": "'token'"},
+    "correct_pub_oaep_token_test": {"message": "'product'"},
+    "correct_pub_pkcs1": {"message": "Decryption failed"},
+    "wrong_pub_oaep": {"message": "Decryption failed"},
+    "with_license_and_product": {"message": "Missing required data in request."}
+  },
+  "notes": "Only GET+JSON body allowed (POST=405). Request seal must use this server_pub + OAEP-SHA256."
+}

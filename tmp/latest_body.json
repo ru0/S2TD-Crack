@@ -1,0 +1,7 @@
+{
+  "data": "Z0FBQUFBQnFiV3V5Y2tfaWhQNDVYeTZpRl82T3NuUjFOT3pFSmVtSHhFY0U2OHJockhzc2pnYVF6MndQMXlKdGVVbmJWOXlsUWhObWhWQkF6MG9FQXhURW0ycUc0aXdhZFhUdlhaaGFuQXdjOS1mQ2RUYmZvVk1rZUxscTdKNlJhLTc5WkxqbUk2OUlDSXV3cjRZQVNFV28tazEwMF9CUXgtVDBpemtwX21iYmpiMnZCOE1XSHBWOXRVeDZZWEZtdVMwMFpnaHFzc2lNSkdBanZzOXRaYW1NUlV6VklseE1fdDRJRVd4NjRFcFVhLWdIb3FmMzFPVTBSSnJkVEZ6OHlYWjNCX0IwSC1rdg==",
+  "key": "d90QTHRltcNdpj356ntqKow20SeXNOzD1pZcLWgmA1DN5gUxRvQ86pZVcVyflkO1j1eczvmog2DmmsFei7SS6T2HDajfKF2Ax7QVoFp_TpPPQyBkPNK7K5H4Q4KfF_JGfmIMnf7rhJ0TM4iuu__SbEfP6P3PY28MnRSkH46YhX69jPUeSsSKGh83MplyYeg7vQFB1UsVAiJprjtyQVOvdyw_XojO3hejF52kmeVNjN1M4J4i6ylaDuVH0LX8mNNVCJz8aoOJDanIDiEC-Pt8mJoh9-lJ_kAHahTrfuCW-oBmWfMlzvJ_2AausGZ00kQ-bQSBUzkQffh-ImUCi_e-6w==",
+  "http_status": 500,
+  "source": "simple_client_test.py 2026-08-01",
+  "note": "mTLS OK; app returned encrypted envelope with HTTP 500 (likely missing encrypted request body)"
+}

@@ -1,0 +1,5 @@
+{"channel": "status", "msg": "py_requests_patch install start", "log": "C:/Users/test/Desktop/crack/tmp/captured/http_capture/_test.jsonl", "pid": 10916, "ts": "2026-08-01T08:10:56.092722+00:00"}
+{"channel": "status", "msg": "patched Fernet.encrypt/decrypt/generate_key", "ts": "2026-08-01T08:10:56.193534+00:00"}
+{"channel": "status", "msg": "patched _RSAPublicKey.encrypt", "ts": "2026-08-01T08:10:56.308939+00:00"}
+{"channel": "status", "msg": "patched requests.Session.request+send (headers)", "log": "C:/Users/test/Desktop/crack/tmp/captured/http_capture/_test.jsonl", "ts": "2026-08-01T08:10:56.382010+00:00"}
+{"channel": "status", "msg": "patch ok (fernet+requests)", "result": {"requests": true, "fernet": true, "rsa": true}, "ts": "2026-08-01T08:10:56.383018+00:00"}

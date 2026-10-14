@@ -1,0 +1,13 @@
+{"summary": "hook_v22_http_capture.js loaded (SSL-first)", "tag": "status", "id": 1, "ts": 1785572026447}
+{"summary": "initial SSL hooks=0", "tag": "status", "id": 2, "ts": 1785572026448}
+{"summary": "hook_v22_http_capture.js loaded (SSL-first)", "tag": "status", "id": 1, "ts": 1785572029126}
+{"summary": "initial SSL hooks=0", "tag": "status", "id": 2, "ts": 1785572029126}
+{"summary": "watching Py_Initialize", "tag": "status", "id": 3, "ts": 1785572029176}
+{"summary": "Python initialized — retry patch", "tag": "status", "id": 4, "ts": 1785572029195}
+{"summary": "patch OK (file/inline Fernet+requests) log=C:/Users/test/Desktop/crack/tmp/captured/http_capture/requests_v22_20260801_161346.jsonl", "tag": "status", "id": 5, "ts": 1785572029594}
+{"summary": "hook_v22_http_capture.js loaded (SSL-first)", "tag": "status", "id": 1, "ts": 1785572029774}
+{"summary": "initial SSL hooks=0", "tag": "status", "id": 2, "ts": 1785572029774}
+{"summary": "heartbeat sslMods=0 patched=false modules=29", "tag": "status", "id": 3, "ts": 1785572030532}
+{"summary": "heartbeat sslMods=0 patched=true modules=60", "tag": "status", "id": 6, "ts": 1785572033228}
+{"summary": "heartbeat sslMods=0 patched=false modules=29", "tag": "status", "id": 4, "ts": 1785572036673}
+{"summary": "heartbeat sslMods=0 patched=true modules=64", "tag": "status", "id": 7, "ts": 1785572039372}

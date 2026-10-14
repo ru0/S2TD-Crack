@@ -1,0 +1,6 @@
+{"channel": "status", "msg": "py_requests_patch install start", "log": "C:\\Users\\test\\Desktop\\crack\\tmp\\captured\\http_capture\\_patch_test.jsonl", "pid": 17672, "ts": "2026-08-01T08:13:26.419148+00:00"}
+{"channel": "status", "msg": "patched Fernet.encrypt/decrypt/generate_key", "ts": "2026-08-01T08:13:26.466146+00:00"}
+{"channel": "status", "msg": "patched requests.Session.send (with headers)", "log": "C:\\Users\\test\\Desktop\\crack\\tmp\\captured\\http_capture\\_patch_test.jsonl", "ts": "2026-08-01T08:13:26.673420+00:00"}
+{"channel": "status", "msg": "patch ok (fernet+requests)", "result": {"requests": true, "fernet": true}, "ts": "2026-08-01T08:13:26.674419+00:00"}
+{"channel": "plaintext", "phase": "fernet.generate_key", "fernet_key": "cC9Ko4ndDuAIbeK89T4m_W4qY_-MUnYGMZP8aN77oTI=", "ts": "2026-08-01T08:13:27.631007+00:00"}
+{"channel": "plaintext", "phase": "fernet.encrypt", "plaintext": "{\" a\\:1}", "json": null, "len": 8, "ts": "2026-08-01T08:13:27.705634+00:00"}
