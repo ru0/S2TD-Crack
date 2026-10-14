@@ -1,4 +1,4 @@
-## 客户端加密破解
+## 客户端双向证书+报文加密破解
 
 
 openssl x509 -inform der -in cert_52BFFC40F80002868FD599F03C66F84A98737EBB.der -out cert.crt
